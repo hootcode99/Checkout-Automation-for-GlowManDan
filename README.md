@@ -14,10 +14,14 @@ https://chromedriver.chromium.org/getting-started
 I have a working .exe in the repo, but it may become out of date. So, it's best to just update it.
 
 ## PyAutoGUI
-When getting into the PayPal portion of the automation, I found it necessary to also leverage the PyAutoGUI module. One of it's features is to locate an image on a page and return it's centered coordinates.
+When getting into the PayPal portion of the automation (as it open in a separate window), I found it necessary to also leverage the PyAutoGUI module. One of it's features is to locate an image on a page and return it's centered coordinates.
 The appropriate screenshots (at the time of creating this are already in the repo). More info about PyAutoGUI can be found here: 
 
 https://pyautogui.readthedocs.io/
+
+![PayPal Radio Button](paypalbutton.png)
+![CheckoutButton](checkout.png)
+![Complete Purchase](complete_purchase.png)
 
 ## Time
 There were instances where Selenium is faster than the page load time and would not be able to locate the elements as they had not loaded in. Therefore, I artificially slowed down the script by introducing waiting time using time.sleep(). I find these times were the slowest I could get away with (the point of the script was to be fast), but they may need to be slowed down (or perhaps speed up) depending on your connection speed.
