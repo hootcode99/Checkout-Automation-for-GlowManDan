@@ -11,6 +11,8 @@ To run this script with a Chromium-based browser, one would need to install the 
 
 https://chromedriver.chromium.org/getting-started
 
+I have a working .exe in the repo, but it may become out of date. So, it's best to just update it.
+
 ## PyAutoGUI
 When getting into the PayPal portion of the automation, I found it necessary to also leverage the PyAutoGUI module. One of it's features is to locate an image on a page and return it's centered coordinates.
 The appropriate screenshots (at the time of creating this are already in the repo). More info about PyAutoGUI can be found here: 
