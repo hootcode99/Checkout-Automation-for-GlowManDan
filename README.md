@@ -1,7 +1,13 @@
 # Checkout-Automation-for-GlowManDan
-GlowManDan is an online resin art seller. Often he creates special, limited edition items that will sell out almost immediately. Others are aware of this and often build their own bots to be the first to obtain these items. 
+GlowManDan is an online resin artist. Often he creates special, limited edition collectible items that will sell out almost immediately. Others are aware of this and often build their own bots to be the first to obtain these items. 
+
+<img src="product_preview.png" alt="website" width="400"/>
+
+https://glowmandan.bigcartel.com/products 
+
 
 A friend interested in the resin art collectibles (who knows that I'm a developer) asked me to build him a bot that he could use to be competitive in purchasing these items. I had just finished doing alot of similar automation for my internship, so I obliged at the opportunity to get more experience with the Python & the modules.
+
 
 # Tools 
 ## Selenium
@@ -40,9 +46,9 @@ The script can complete the purchase process beginning-to-end. However, during t
 Initially, I had the bot prompt the user for entering information. However, if there were any typos, they would carry forward. That left my with 2 options, create an entire system to allow the user to edit their entries or just get the values and hardcode them in. Therefore, for my friend, I just had him give me the information to hardcode into the bot.
 
 ## Running the script
-I ended up packaging the script into an .exe for my friend using PyInstaller. I was very quick and easy and can be found here: 
+I ended up packaging the script into an .exe for my friend using PyInstaller. I was very quick and easy.
 
 https://pyinstaller.org/en/stable/ 
 
-But it will be simpler to just run the script if you have Python installed.
+But it would be more simple to just put in your infomation & run the script if you have Python installed.
 
