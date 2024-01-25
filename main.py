@@ -6,19 +6,14 @@ from selenium.webdriver.support.ui import Select
 import pyautogui as pag
 import time as t
 
-# !!!!!!!!!!!!!!IMPORTANT!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 # You must backspace the '#' at the beginning of
 # lines 127 & 128 for it to complete the entire process
-# Example lines:
-# x, y = pag.locateCenterOnScreen('completepurchase.png', confidence=0.9)
-# pag.click(x, y)
-
 
 # ENTER YOUR INFORMATION HERE --------------------------------------------------------
 # the name or keyword to be found in the product (separated by a '-' if more than one
-product_attribute = "ass-hat"
+product_attribute = "product-name"
 # your personal info for checkout
-contact_info = ["Firstname", "Lastname", "email@hotmail.com", "phone"]
+contact_info = ["Firstname", "Lastname", "email@mail.com", "phone"]
 # your address info for shipping
 shipping_info = ["street", "", "city", "state (not abbreviated)", "zip"]
 # your paypal login
