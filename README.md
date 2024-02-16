@@ -43,7 +43,7 @@ If GlowManDan changes his checkout process than this script will unfortunately n
 The script can complete the purchase process beginning-to-end. However, during testing I left the final step commented out as to not actually buy anything. I felt it safer to leave the last step of the purchase in the user's hand in the final copy as well. However, it can easily be reactivated. The way I have it, at the end of the script, the bot will ask you if you wish to end the script.
 
 ## Information Entry
-Initially, I had the bot prompt the user for entering information. However, if there were any typos, they would carry forward. That left my with 2 options, create an entire system to allow the user to edit their entries or just get the values and hardcode them in. Therefore, for my friend, I just had him give me the information to hardcode into the bot.
+Initially, I had the bot prompt the user for entering information. However, if there were any typos, they would carry forward. That left me with 2 options, create an entire system to allow the user to edit their entries or just get the values and hardcode them in. Therefore, for my friend, I just had him give me the information to hardcode into the bot.
 
 ## Running the script
 I ended up packaging the script into an .exe for my friend using PyInstaller. I was very quick and easy.
